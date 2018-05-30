@@ -1,1 +1,178 @@
-Hello World
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <meta name="description" content="Personal website of Gianni Antichi"/>
+    <meta name="keywords" content="Gianni Antichi, UCL, University College London, Fastly"/>
+    <meta name="author" content="Gianni Antichi"/>
+
+    <title>Gianni Antichi</title>
+
+    <!-- Open Graph tags: see http://ogp.me/ for details -->
+    <meta property="og:url" content="https://GianniAntichi.github.io"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="Gianni Antichi"/>
+    <meta property="og:description" content="Personal website of Gianni Antichi"/>
+    <meta property="og:image" content="img/profile.jpg"/>
+    <meta property="og:image:type" content="image/jpeg"/>
+    <meta property="og:image:width" content="150"/>
+    <meta property="og:image:height" content="180"/>
+    <meta property="og:image:alt" content="Gianni Antichi"/>
+
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css" media="screen">
+
+    <!-- academicons -->
+    <link rel="stylesheet" href="css/academicons.min.css" media="screen">
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom style for this website -->
+    <link href="css/custom.css" rel="stylesheet">
+
+    <script>
+      function openBib(url) {
+        window.open(url,'BibTeX citation','titlebar=no,menubar=no,scrollbars=no,resizable=yes,width=1250,height=300,status=no,location=no,toolbar=no');
+      }
+
+      function openAbstract(url) {
+        window.open(url,'BibTeX citation','titlebar=no,menubar=no,scrollbars=no,resizable=yes,width=1250,height=300,status=no,location=no,toolbar=no');
+      }
+
+    </script>
+  </head>
+
+  <body data-spy="scroll" data-target=".navbar">
+
+    <!-- id to get the highlighting of the home in navbar working correctly -->
+    <div id="home"></div>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+        <!-- This is the button for mobile -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#bio">Bio</a></li>
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="#patents">Patents</a></li>
+            <li><a href="#software">Software</a></li>
+            <li><a href="#talks">Talks</a></li>
+            <li><a href="#awards">Awards</a></li>
+          </ul>
+        </div> <!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container">
+
+      <div class="page-header">
+        <div class="row">
+          <div class="col-md-3">
+            <img class="img-responsive center-block" src="img/profile.jpg" alt="Gianni Antichi"/>
+          </div>
+          <div class="col-md-9">
+            <h1>Gianni Antichi</h1>
+            <p class="lead">
+              Senior Research Associate at University of Cambridge
+              <br/>
+              Ph.D., University Name
+            </p>
+            <p>
+              <a href="#" onmouseover="" title="E-mail"><i class="fa fa-2x fa-envelope"></i></a>
+              <a href="https://github.com/GianniAntichi" title="GitHub" target="_blank"><i class="fa fa-2x fa-github"></i></a>
+              <a href="https://scholar.google.com/citations?user=3VedTqcAAAAJ" title="Google Scholar" target="_blank"><i class="ai ai-2x ai-google-scholar"></i></a>
+              <a href="https://www.linkedin.com/in/GianniAntichi" title="LinkedIn" target="_blank"><i class="fa fa-2x fa-linkedin"></i></a>
+              <a href="https://twitter.com/GianniAntichi" title="Twitter" target="_blank"><i class="fa fa-2x fa-twitter"></i></a>
+              <a href="https://keybase.io/GianniAntichi" title="Keybase" target="_blank"><i class="fa fa-2x fa-key"></i></a>
+            </p>
+          </div> <!-- col -->
+        </div> <!-- row -->
+      </div> <!-- page-header -->
+
+      <div class="page-main">
+
+        <h2 id="bio">Bio</h2>
+        <p>
+        Some information about yourself. 
+        </p>
+
+        <h2 id="publications">Publications</h2>
+        <ol>
+          <li>
+            <p>Authors
+            <br/><b>Title</b>
+            <br/><em>Conference name</em>, Location and year
+            <br/>Acceptance ratio: 15.87%
+            <br/>
+            <span class="label label-primary"><a href="">PDF</a></span>
+            <span class="label label-primary"><a href="');">BibTex</a></span>
+            <span class="label label-primary"><a href="">Slides</a></span>
+            <span class="label label-primary"><a href="">Blog post</a></span>
+            </p>
+          </li>
+
+         
+        </ol>
+
+        <h2 id="software">Software</h2>
+        <ul>
+          <li><p>
+            <b>Title of software</b>
+            <br/>
+            Description of software
+            <br/>
+            <span class="label label-primary"><a href="">Website</a></span>
+            <span class="label label-primary"><a href="">Code</a></span>
+            <span class="label label-primary"><a href="">Slides</a></span>
+            <span class="label label-primary"><a href="');">BibTex</a></span>
+          </p></li>
+
+        </ul>
+
+
+        <h2 id="talks">Talks and Tutorials</h2>
+
+        <ul>
+          <li><p>
+            <b>Title</b>
+            <br/>Conference, location, year
+            <br/>
+            <span class="label label-primary"><a href="">Abstract</a></span>
+            <span class="label label-primary"><a href="">Slides</a></span>
+            <span class="label label-primary"><a href="">Video</a></span>
+          </p></li>
+
+        </ul>
+
+        <h2 id="awards">Honors and Awards</h2>
+        <ul>
+          <li>Award name 1</li>
+          <li>Award name 2</li>
+        </ul>
+
+      </div>  <!-- /page-main -->
+
+    </div> <!-- /container -->
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
