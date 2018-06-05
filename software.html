@@ -131,7 +131,7 @@
 	<br>
         <p>
         <a target=blank href="http://www.osnt.org">
-        <img src="img/OSNTsmall.png" alt="oops..it is supposed to be my photo here!!" height="25%" width="25%" style="float:left;" hspace="20">
+        <img src="img/OSNTsmall.png" alt="oops..it is supposed to be my photo here!!" height="30%" width="30%" style="float:left;" hspace="20">
         </p></a>
 	<p align="justify">
 	OSNT is an open-source hardware <b>traffic generator</b> and <b>capture system</b> built on top of NetFPGA. Originally designed for the 
@@ -142,17 +142,37 @@
 	<br>
         <br>
 	<hr>
+	<h3 id="classbench"><a href="https://classbench-ng.github.io/">Classbench-ng</a></h3>
+	<p align="justify">
+	ClassBench-ng is a tool, based on the well-known <a href="https://www.arl.wustl.edu/classbench/">Classbench</a> for generation of synthetic 
+	classification rule sets. ClassBench-ng can successfully generate synthetic <b>IPv4</b>, <b>IPv6</b>, and <b>OpenFlow 1.0</b> rule sets 
+	exposing the same properties of real ones.
+	</p>
 	<br>
 	<br>
-	<h3 id="classbench">Classbench-ng</h3>
-
-
 	<hr>
-        <h3 id="pciebench">Pcie-bench</h3>
-
-	
+        <h3 id="pciebench"><a href="https://www.pcie-bench.org">pcie-bench</a></h3>
+	<p align="justify">
+	<b>pcie-bench</b> is a combination of micro-benchmarks that systematically measures aspects of performance for both a device's DMA engines and, 
+	more crucially, the PCIe root complex. Using pcie-bench, it is possible to <b>characterize</b> (i.e., latency and throughput) the <b>PCIe subsystem</b> 
+	in modern servers when DDIO, NUMA or IOMMU are enabled. Currently pcie-bench is supported on both Netronome and NetFPGA boards.
+	</p>
+        <br>
+        <br>
 	<hr>
-        <h3 id="ndp">NDP</h3>
+	<br>
+        <br>
+        <p>
+        <a target=blank href="https://github.com/nets-cs-pub-ro/NDP/wiki">
+        <img src="img/ndp.png" alt="oops..it is supposed to be my photo here!!" height="35%" width="35%" style="float:left;" hspace="20">
+        </p></a>
+        <p align="justify">
+	<b>NDP</b> is a <b>transport protocol</b> for <b>datacenter networks</b> that allows to simultaneously achieve both low delay and 
+	high throughput. NDP has no connection setup handshake, and allows flows to start sending instantly at full rate. We use per-packet 
+	multipath load balancing, which avoids core networkccongestion at the expense of reordering, and in switches we use a similar approach 
+	to Cut Payload (CP), which trims the payloads of packets when a switch queue fills. This produces a network that is lossless for metadata, 
+	but not for traffic payloads. 
+	</p>
 
 
 
